@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("../bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-size {
+  font-size: clamp(0.375rem, 0.042rem + 1.778vw, 0.875rem);
+}
+
+.texts-size {
+  font-size: clamp(0.35rem, -0.044rem + 2.1vw, 0.875rem);
+}
+
+.texts-in-table {
+  font-size: clamp(0.313rem, 0.074rem + 1.273vw, 0.75rem);
+  line-height: clamp(0.438rem, 0.131rem + 1.636vw, 1rem);
+}
+
+.texts-special {
+  font-size: clamp(0.25rem, -0.023rem + 1.455vw, 0.75rem);
+}
+
+.margin-three-top {
+  margin-top: clamp(0.375rem, 0rem + 2vw, 0.75rem);
+}
+
+.margin-three {
+  margin-top: clamp(0.375rem, 0rem + 2vw, 0.75rem);
+  margin-bottom: clamp(0.375rem, 0rem + 2vw, 0.75rem);
+}
+
+.subtitle-size {
+  font-size: clamp(0.563rem, 0.141rem + 2.25vw, 1.125rem);
+}
+.subtitle-size-span {
+  font-size: clamp(0.375rem, -0.188rem + 3vw, 1.125rem);
+}
+
+.padding-eight {
+  padding-top: clamp(0.813rem, -0.375rem + 6.333vw, 2rem);
+  padding-bottom: clamp(0.813rem, -0.375rem + 6.333vw, 2rem);
+}
+
+.padding-six {
+  padding-right: clamp(0.75rem, 0rem + 4vw, 1.5rem);
+  padding-left: clamp(0.75rem, 0rem + 4vw, 1.5rem);
+}
